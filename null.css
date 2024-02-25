@@ -1,0 +1,253 @@
+<div
+  class="header"
+  id="header"
+  > <nav
+  > <ul
+  > <li
+  > <a
+  href="TW.html"
+  id="TW"
+  class="btn"
+  > Two
+  Wheels</a
+  > </li
+  > <li
+  > <a
+  href="FW.html"
+  id="FW"
+  class="btn"
+  > Four
+  Wheels</a
+  > </li
+  > </ul
+  > </nav
+  > <div
+  class="content"
+  > <h1
+  > Vintage
+  <br
+  /
+  > Machines
+  </h1
+  > </div
+  > </div
+  > </div
+  > ..
+  <div
+  class="sections"
+  > <ul
+  > <li
+  > <a
+  > 2
+  WHEELERS</a
+  > </li
+  > <li
+  > <a
+  > 4
+  WHEELERS</a
+  > </li
+  > </ul
+  > </div
+  > ..
+  .sections {
+  margin-bottom: 40%;
+  color: #fff;
+  text-align: right;
+}
+
+.sections ul li {
+  font-size: 25px;
+  padding-right: 150px;
+}
+,
+.TW {
+  color: #fff;
+  text-align: right;
+}
+
+.FW {
+  color: #fff;
+  text-align: right;
+  padding-top: 50px;
+}
+...;
+<div
+  class="TW"
+  > <button
+  > 2
+  WHEELERS</button
+  > </div
+  > <div
+  class="FW"
+  > <button
+  > 4
+  WHEELERS</button
+  > </div
+  > ...
+  linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65))
+  ...
+  <div
+  class="container"
+  > <nav
+  > <h1
+  class="logo"
+  > #AL</h1
+  > <ul
+  > <li
+  > <a
+  href="#"
+  > Home</a
+  > </li
+  > <li
+  > <a
+  href="#"
+  > About
+  Us</a
+  > </li
+  > <li
+  > <a
+  href="#"
+  > Sign
+  in</a
+  > </li
+  > </ul
+  > </nav
+  > <div
+  class="content"
+  > <h1
+  > bhavesh<br
+  /
+  > Legends</h1
+  > <p
+  > A
+  specially
+  customized
+  platform
+  where
+  you"ll find <br />India"s
+  most
+  loved
+  Motorbikes
+  &
+  Cars...
+  <br
+  /
+  > which
+  are
+  discontinued
+  by
+  companies
+  but
+  preserved
+  by
+  Hobbyist
+  like
+  us
+  !
+  </p
+  > </div
+  > <div
+  class="section"
+  > <a
+  href=""
+  > 2
+  Wheeler</a
+  > <a
+  href=""
+  class="btn"
+  > 4
+  Wheeler</a
+  > </div
+  > </div
+  > ...<nav
+  > <h1
+  class="logo"
+  > #AL</h1
+  > <ul
+  > <li
+  > <a
+  href="#"
+  > Home</a
+  > </li
+  > <li
+  > <a
+  href="#"
+  > About
+  Us</a
+  > </li
+  > </ul
+  > </nav
+  > <div
+  class="product"
+  > <div
+  class="gallery"
+  > <img
+  src="photos/rx1000.jpg"
+  /
+  > </div
+  > <div
+  class="details"
+  > </div
+  > </div
+  > ...
+  .container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(photos/bg2edited.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: 600;
+  color: rgb(255, 253, 253);
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 28px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.product {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+}
+
+.gallery {
+  flex-basis: 47%;
+  background: #241e20;
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+  padding-top: 100px;
+}
+
+... <a href="" > <button > Buying Options</button > </a >;

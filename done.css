@@ -1,0 +1,35 @@
+body {
+  background-image: url(photos/darkbg2.jpg);
+  font-family: "Poppins", sans-serif;
+}
+.popup {
+  width: 400px;
+  background: black;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+}
+.data {
+  margin: 10px -40px 0px 0px;
+}
+.data h2 {
+  font-size: 70px;
+  color: white;
+}
+.data p {
+  color: white;
+  margin-bottom: 70px;
+}
+.data button {
+  width: 100px;
+  background: #6fd649;
+  color: #333;
+  outline: none;
+  border: 0;
+  font-size: 18px;
+}
